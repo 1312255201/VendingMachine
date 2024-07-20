@@ -1,4 +1,4 @@
-<h1 align="center"> VendingMachine
+<h1 align="center"> VendingMachine</h1>
 <align="center">A SCP:SL Vending Machine plugin for EXILED.
 
 <align="center">This is my first EXILED plugin, or C# project for that matter.
