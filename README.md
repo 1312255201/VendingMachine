@@ -7,6 +7,7 @@ This is my first EXILED plugin, or C# project for that matter. It's a simple ven
 
 ![Release](https://img.shields.io/github/v/release/razormontana/VendingMachine?display_name=tag&label=Version)
 ![EXILEDVersion](https://img.shields.io/badge/EXILED_Version-8.9.7-crimson?logo=scpfoundation)
+![Downloads](https://img.shields.io/github/downloads/razormontana/VendingMachine/total?logo=github&label=Downloads&color=green)
 
 </div>
 
