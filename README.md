@@ -1,8 +1,8 @@
-# VendingMachine
+<align=center># VendingMachine
 A SCP:SL Vending Machine plugin for EXILED.
 
 This is my first EXILED plugin, or C# project for that matter.
-It's a simple vending machine plugin, where you interact with a Pickup, with a coin in your hand, to receive a random item from a list in the config.
+It's a simple vending machine plugin, where you interact with a Pickup, with a coin in your hand, to receive a random item from a list in the config.</align>
 
 ### This plugin can be interacted with in two ways:
 
