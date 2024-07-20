@@ -27,7 +27,7 @@ The plugin will work on it's own, but you will need <a href=https://github.com/M
 
 <h1>Config:</h1>
 
-All messages are fully customizable with the config file and so is the item list.
+All messages are fully customizable with the config file, and so is the item list.
 
 ```Yaml
 # Whether the plugin is enabled or not.
