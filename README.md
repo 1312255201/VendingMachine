@@ -19,6 +19,8 @@ This is my first [EXILED](https://github.com/Exiled-Official/EXILED) plugin, or 
   
 - The command can be used on other players as well with the ```vdg.targetothers``` permission.
 
+### You will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorReborn</a> to create your "Vending" Pickup! (<a href=https://github.com/Michal78900/MapEditorReborn>AMERT</a> InteractablePickups are not required and were not tested.)
+
 All messages are fully customizable with the config file and so is the item list. This is what the default ```config.yml``` looks like:
 
 ```Yaml
@@ -61,6 +63,3 @@ vending_machine_stock:
 - SCP268
 - SCP1853
 ```
-
-
-### You will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorReborn</a> to create your "Vending" Pickup! (AMERT is not required.)
