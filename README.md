@@ -3,7 +3,11 @@
 
 <div align="center">
 
-This is my first EXILED plugin, or C# project for that matter. It's a simple vending machine plugin, where you interact with a Pickup, with a coin in your hand, to receive a random item from a list in the config.</div>
+This is my first EXILED plugin, or C# project for that matter. It's a simple vending machine plugin, where you interact with a Pickup, with a coin in your hand, to receive a random item from a list in the config.
+
+[![Version](https://img.shields.io/github/v/release/razormontana/VendingMachine?sort=semver&style=flat-square&color=8DBBE9&label=Version)]()
+
+</div>
 
 ### This plugin can be interacted with in two ways:
 
