@@ -18,7 +18,7 @@ This is my first EXILED plugin, or C# project for that matter. It's a simple ven
   
 - The command can be used on other players as well with the ```vdg.targetothers``` permission.
 
-All messages are fully customizable with the config file and so is the item list. This is what the default ```config.yaml``` looks like:
+All messages are fully customizable with the config file and so is the item list. This is what the default ```config.yml``` looks like:
 
 ```Yaml
 # Whether the plugin is enabled or not.
