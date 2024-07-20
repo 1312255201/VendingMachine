@@ -1,9 +1,9 @@
 <h1 align="center"> VendingMachine</h1>
-<h3 align="center">A SCP:SL Vending Machine plugin for [EXILED](https://github.com/Exiled-Official/EXILED).</h3>
+<h3 align="center">A SCP:SL Vending Machine plugin for EXILED.</h3>
 
 <div align="center">
 
-This is my first EXILED plugin, or C# project for that matter. It's a simple vending machine plugin, where you interact with a Pickup, with a coin in your hand, to receive a random item from a list in the config.
+This is my first [EXILED](https://github.com/Exiled-Official/EXILED) plugin, or C# project for that matter. It's a simple vending machine plugin, where you interact with a Pickup, with a coin in your hand, to receive a random item from a list in the config.
 
 ![Release](https://img.shields.io/github/v/tag/razormontana/VendingMachine?logo=github&label=Version)
 ![EXILEDVersion](https://img.shields.io/badge/EXILED_Version-8.9.7-crimson?logo=scpfoundation)
