@@ -1,5 +1,5 @@
 <h1 align="center"> VendingMachine</h1>
-<h3 align="center">A SCP:SL Vending Machine plugin for EXILED.</h3>
+<h3 align="center">A SCP:SL Vending Machine plugin for [EXILED](https://github.com/Exiled-Official/EXILED).</h3>
 
 <div align="center">
 
