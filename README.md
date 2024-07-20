@@ -11,7 +11,7 @@ This is my first [EXILED](https://github.com/Exiled-Official/EXILED) plugin, or 
 
 </div>
 
-<h1 align="center">Features:</h1>
+<h1>Features:</h1>
 
 - The primary feature of the plugin is that when a pickup with the GameObject name "Vending" is searched, it will exchange the coin for a random item.
   
@@ -19,11 +19,11 @@ This is my first [EXILED](https://github.com/Exiled-Official/EXILED) plugin, or 
   
 - The command can be used on other players as well with the ```vdg.targetothers``` permission.
 
-<h1 align="center">Dependencies:</h1>
+<h1>Dependencies:</h1>
 
 The plugin will work on it's own, but you will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorReborn</a> to create your "Vending" Pickup. (<a href=https://github.com/Michal78900/MapEditorReborn>AMERT</a> InteractablePickups are not required and were not tested.)
 
-<h1 align="center">Config:</h1>
+<h1>Config:</h1>
 
 All messages are fully customizable with the config file and so is the item list.
 
