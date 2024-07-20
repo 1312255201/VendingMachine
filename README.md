@@ -19,6 +19,8 @@ This is my first [EXILED](https://github.com/Exiled-Official/EXILED) plugin, or 
   
 - The command can be used on other players as well with the ```vdg.targetothers``` permission.
 
+VendingMachine is meant to be used with [MapEditorReborn](https://github.com/Michal78900/MapEditorReborn), but any Pickup object with the correct name should suffice.
+
 <h2>Dependencies:</h1>
 
 The plugin requires [EXILED](https://github.com/Exiled-Official/EXILED) to be installed on your server.
