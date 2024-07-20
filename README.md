@@ -1,4 +1,4 @@
-<h1 align="center"> VendingMachine</h1>
+<h1 align="center">VendingMachine</h1>
 <h3 align="center">A <a href=https://store.steampowered.com/app/700330/SCP_Secret_Laboratory/>SCP: Secret Laboratory</a> Vending Machine plugin for <a href=https://github.com/Exiled-Official/EXILED>EXILED</a>.</h3>
 
 <div align="center">
@@ -11,7 +11,7 @@ This is my first [EXILED](https://github.com/Exiled-Official/EXILED) plugin, or 
 
 </div>
 
-### This plugin can be interacted with in two ways:
+<h1 align="center">Features:</h1>
 
 - The primary feature of the plugin is that when a pickup with the GameObject name "Vending" is searched, it will exchange the coin for a random item.
   
@@ -19,9 +19,13 @@ This is my first [EXILED](https://github.com/Exiled-Official/EXILED) plugin, or 
   
 - The command can be used on other players as well with the ```vdg.targetothers``` permission.
 
-### You will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorReborn</a> to create your "Vending" Pickup! (<a href=https://github.com/Michal78900/MapEditorReborn>AMERT</a> InteractablePickups are not required and were not tested.)
+<h1 align="center">Dependencies:</h1>
 
-All messages are fully customizable with the config file and so is the item list. This is what the default ```config.yml``` looks like:
+The plugin will work on it's own, but you will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorReborn</a> to create your "Vending" Pickup. (<a href=https://github.com/Michal78900/MapEditorReborn>AMERT</a> InteractablePickups are not required and were not tested.)
+
+<h1 align="center">Config:</h1>
+
+All messages are fully customizable with the config file and so is the item list.
 
 ```Yaml
 # Whether the plugin is enabled or not.
