@@ -8,7 +8,7 @@ namespace VendingMachinePlugin
         public override string Author => "Razortosh";
         public override string Name => "Vending Machine";
         public override string Prefix => "VendingMachine";
-        public override Version Version => new Version(1, 0, 0);
+        public override Version Version => new Version(1, 0, 0, 1);
         public static VendingMachine Singleton;
         private EventHandler Hdlr;
         public override void OnEnabled()
