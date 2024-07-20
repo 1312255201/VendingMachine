@@ -21,7 +21,9 @@ This is my first [EXILED](https://github.com/Exiled-Official/EXILED) plugin, or 
 
 <h1>Dependencies:</h1>
 
-The plugin will work on it's own, but you will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorReborn</a> to create your "Vending" Pickup. (<a href=https://github.com/Michal78900/MapEditorReborn>AMERT</a> InteractablePickups are not required and were not tested.)
+The plugin will work on it's own, but you will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorReborn</a> to create your "Vending" Pickup. 
+
+(<a href=https://github.com/Michal78900/MapEditorReborn>AMERT</a> InteractablePickups are not required and were not tested.)
 
 <h1>Config:</h1>
 
