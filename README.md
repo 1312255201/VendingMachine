@@ -5,7 +5,8 @@
 
 This is my first EXILED plugin, or C# project for that matter. It's a simple vending machine plugin, where you interact with a Pickup, with a coin in your hand, to receive a random item from a list in the config.
 
-![GitHub Release](https://img.shields.io/github/v/release/razormontana/VendingMachine?display_name=tag&label=Version)
+![Release](https://img.shields.io/github/v/release/razormontana/VendingMachine?display_name=tag&label=Version)
+![EXILEDVersion](https://img.shields.io/badge/EXILED_Version-8.9.7-crimson)
 
 </div>
 
