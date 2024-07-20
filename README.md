@@ -28,7 +28,8 @@ The plugin requires [EXILED](https://github.com/Exiled-Official/EXILED) to be in
 
 You will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorReborn</a> to create your "Vending" Pickup. 
 
-(<a href=https://github.com/Michal78900/MapEditorReborn>AMERT</a> InteractablePickups are not required and were not tested.)
+> [!NOTE]
+> (<a href=https://github.com/Michal78900/MapEditorReborn>AMERT</a> InteractablePickups are not required and were not tested.)
 
 <h2>Config:</h1>
 
