@@ -12,4 +12,6 @@ It's a simple vending machine plugin, where you interact with a Pickup, with a c
   
 - The command can be used on other players as well with the ```vdg.targetothers``` permission.
 
+All messages are fully customizable with the config file and so is the item list.
+
 ### You will need MapEditorReborn to create your "Vending" Pickup! (AMERT is not required.)
