@@ -63,6 +63,4 @@ vending_machine_stock:
 ```
 
 
-### You will need MapEditorReborn to create your "Vending" Pickup! (AMERT is not required.)
-
-Download MER here: https://github.com/Michal78900/MapEditorReborn
+### You will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorReborn</a> to create your "Vending" Pickup! (AMERT is not required.)
