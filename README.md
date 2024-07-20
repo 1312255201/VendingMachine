@@ -12,6 +12,48 @@ It's a simple vending machine plugin, where you interact with a Pickup, with a c
   
 - The command can be used on other players as well with the ```vdg.targetothers``` permission.
 
-All messages are fully customizable with the config file and so is the item list.
+All messages are fully customizable with the config file and so is the item list. This is what the default ```config.yaml``` looks like:
+
+```Yaml
+# Whether the plugin is enabled or not.
+is_enabled: true
+# Locatization settings (modify these messages to your liking).
+description_console: 'Checks if the player is holding a coin and gives a random item if so.'
+interaction_successful_message: '<b>The vending machine <color=#42f57b>dispensed something.</color></b>'
+interaction_failed_message: '<b>You aren''t <color=red>holding a coin!</color></b>'
+interaction_failed_console: 'Item was not granted. The player was not holding a coin.'
+interaction_successful_console: 'Successfully granted a random item.'
+no_permission_console: 'You do not have permission to execute this command.'
+no_others_permission_console: 'You can only use this command on yourself with your current permissions.'
+no_player: 'Player not found.'
+# Debug.
+debug: false
+# List of items that the vending machine has in stock:
+vending_machine_stock:
+- KeycardChaosInsurgency
+- KeycardContainmentEngineer
+- KeycardFacilityManager
+- GunA7
+- GunFSP9
+- GunLogicer
+- GunE11SR
+- GunRevolver
+- GunCrossvec
+- GunCom45
+- Jailbird
+- ParticleDisruptor
+- SCP018
+- SCP207
+- AntiSCP207
+- KeycardJanitor
+- KeycardScientist
+- KeycardZoneManager
+- KeycardGuard
+- MicroHID
+- SCP500
+- SCP268
+- SCP1853
+```
+
 
 ### You will need MapEditorReborn to create your "Vending" Pickup! (AMERT is not required.)
