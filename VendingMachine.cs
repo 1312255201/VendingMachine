@@ -3,12 +3,12 @@ using Exiled.API.Features;
 
 namespace VendingMachinePlugin
 {
-    class VendingMachine : Plugin<Config>
+    class VendingMachine : Plugin<Configs>
     {
         public override string Author => "Razortosh";
         public override string Name => "Vending Machine";
         public override string Prefix => "VendingMachine";
-        public override Version Version => new Version(1, 0, 0, 1);
+        public override Version Version => new Version(1, 1, 0, 0);
         public static VendingMachine Singleton;
         private EventHandler Hdlr;
         public override void OnEnabled()

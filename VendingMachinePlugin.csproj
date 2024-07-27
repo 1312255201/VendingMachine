@@ -104,9 +104,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chance.cs" />
     <Compile Include="EventHandler.cs" />
     <Compile Include="Commands.cs" />
-    <Compile Include="Config.cs" />
+    <Compile Include="Configs.cs" />
     <Compile Include="VendingMachine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
