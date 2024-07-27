@@ -13,7 +13,7 @@ This is my first [EXILED](https://github.com/Exiled-Official/EXILED) plugin, or 
 
 <h2>Features:</h1>
 
-- The primary feature of the plugin is that when a pickup with the GameObject name "Vending" is searched, it will exchange the coin for a random item.
+- The primary feature of the plugin is that when a pickup with the GameObject name "Vending" is searched, it will exchange the coin for a random item, effect, make the player a dwarf, throw a flashbang at them, outright explode them, or make them throw the 173 Tantrum.
   
 - Alternatively, one can use the Console (not RemoteAdmin!!!!) with the ```.vdg``` command and ```vdg.perm``` permission to perform the same action. You can set this up to let your VIPs use VendingMachine anywhere.
   
@@ -33,17 +33,35 @@ You will need <a href=https://github.com/Michal78900/MapEditorReborn>MapEditorRe
 
 <h2>Config:</h1>
 
-All messages are fully customizable with the config file, and so is the item list.
+All messages are fully customizable with the config file, and so is the item and effect list.
+Chance weights don't need to add up to 100. If an event is disabled, it's chance will default to dispensing an item instead.
 
 ```Yaml
-# Whether the plugin is enabled or not.
+# Whether the plugin and it's modules are enabled or not.
 is_enabled: true
+enable_effects: true
+enable_size_change: true
+enable_explode: true
+enable_flashbang: true
+enable_tantrum: true
+# Module chance weights:
+item_chance: 50
+effect_chance: 30
+size_change_chance: 5
+explode_chance: 1
+flashbang_chance: 5
+tantrum_chance: 9
 # Locatization settings (modify these messages to your liking).
 description_console: 'Checks if the player is holding a coin and gives a random item if so.'
-interaction_successful_message: '<b>The vending machine <color=#42f57b>dispensed something.</color></b>'
+interaction_successful_items: '<b>The vending machine <color=#42f57b>dispensed something.</color></b>'
+interaction_successful_effects: '<b>The vending machine <color=#42f57b>shook violently.</color></b>'
+interaction_successful_size: '<b>The vending machine <color=#42f57b>gnomed you.</color></b>'
+interaction_successful_explode: '<b>The vending machine <color=#42f57b>exploded.</color></b>'
+interaction_successful_flashbang: '<b>The vending machine <color=#42f57b>dispensed a weird can.</color></b>'
+interaction_successful_tantrum: '<b>You <color=#42f57b>shit yourself.</color></b>'
 interaction_failed_message: '<b>You aren''t <color=red>holding a coin!</color></b>'
-interaction_failed_console: 'Item was not granted. The player was not holding a coin.'
-interaction_successful_console: 'Successfully granted a random item.'
+interaction_failed_console: 'The player is not holding a coin.'
+interaction_successful_console: 'Successful.'
 no_permission_console: 'You do not have permission to execute this command.'
 no_others_permission_console: 'You can only use this command on yourself with your current permissions.'
 no_player: 'Player not found.'
@@ -74,4 +92,22 @@ vending_machine_stock:
 - SCP500
 - SCP268
 - SCP1853
+# List of effects that the vending machine has in stock, and their durations:
+min_effect_duration: 10
+max_effect_duration: 25
+vending_machine_effects:
+- Invigorated
+- AntiScp207
+- Scp207
+- Asphyxiated
+- Blinded
+- Scp1853
+- Hypothermia
+- MovementBoost
+- Invisible
+# Size change settings:
+gnomed_size:
+  x: 1.13
+  y: 0.5
+  z: 1.13
 ```
