@@ -30,6 +30,7 @@ namespace VendingMachinePlugin
                 {
                     
                     player.ShowHint(Config.InteractionFailedMessage, 5f);
+                    return;
                 }
 
                 if (player.CurrentItem.Type == ItemType.Coin)
